@@ -17,6 +17,8 @@ body{
     align-items: center;
    
 }
+
+
 .logo{
     flex: 20%;
     margin-left: 10%;
@@ -155,4 +157,77 @@ border-top: 5px solid #ff2978;
     color: white;
     font-size: 34px;
 }
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
 
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .logo {
+        flex: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .menu {
+        flex: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .menu a {
+        display: block;
+        padding: 10px;
+    }
+
+    #botao {
+        margin: 20px auto;
+        display: block;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headline {
+        flex: 100%;
+        margin-left: 0;
+    }
+
+    .img-headline {
+        flex: 100%;
+        margin-right: 0;
+    }
+
+    section {
+        margin-top: 40px;
+        padding: 2%;
+    }
+
+    section h2 {
+        font-size: 32px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .logo-rodape {
+        padding: 50px 0;
+    }
+
+    .agencia {
+        font-size: 28px;
+    }
+}
